@@ -41,8 +41,8 @@ Your Excel file **MUST** contain these exact column names:
   ```bash
   uv run FindNearLocation.py
 ```
-```bash
-  uv run FindNearLocation.py
+  ```bash
+  uv run FindSusCodeP_CodeP.py
 ```
 
 ### Configuration (inside script)
