@@ -1,3 +1,8 @@
+# What this script does:
+# This script identifies unsecured shops that are geographically close to secured shops and checks for potential duplicates among
+# Meaning that it compares unsecured shops against secured shops to find potential matches, then checks for duplicates among unsecured shops themselves.
+# Should we run this script first? Yes, it loads the data and finds nearest secured shops for unsecured ones, then checks for duplicates among unsecured shops.
+
 import pandas as pd
 from geopy.distance import geodesic
 from scipy.spatial import cKDTree
