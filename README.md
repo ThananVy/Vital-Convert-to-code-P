@@ -39,7 +39,10 @@ Your Excel file **MUST** contain these exact column names:
 
 ## ▶️ How to Run
   ```bash
-  python FindNearLocation.py
+  uv run FindNearLocation.py
+```
+  ```bash
+  uv run FindSusCodeP_CodeP.py
 ```
 
 ### Configuration (inside script)
